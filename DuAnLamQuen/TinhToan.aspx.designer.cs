@@ -42,6 +42,24 @@ namespace DuAnLamQuen
         protected global::System.Web.UI.WebControls.TextBox txtNhapSoMot;
 
         /// <summary>
+        /// vfvSo1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vfvSo1;
+
+        /// <summary>
+        /// cvSo1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvSo1;
+
+        /// <summary>
         /// lbSo2 control.
         /// </summary>
         /// <remarks>
@@ -58,6 +76,42 @@ namespace DuAnLamQuen
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtNhapSoHai;
+
+        /// <summary>
+        /// vfvSo2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator vfvSo2;
+
+        /// <summary>
+        /// cvSo2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvSo2;
+
+        /// <summary>
+        /// vTongHopLoi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vTongHopLoi;
+
+        /// <summary>
+        /// lbThongBao control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbThongBao;
 
         /// <summary>
         /// btnCong control.

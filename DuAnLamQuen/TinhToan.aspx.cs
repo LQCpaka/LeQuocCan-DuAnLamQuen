@@ -16,9 +16,17 @@ namespace DuAnLamQuen
         }
         protected void ThucHienPhepTinh(Func<float, float, float> operation)
         {
-            float a = float.Parse(txtNhapSoMot.Text);
-            float b = float.Parse(txtNhapSoHai.Text);
-            txtKetQua.Text = operation(a, b).ToString();
+            if (txtNhapSoMot.Text != string.Empty && txtNhapSoHai.Text != string.Empty)
+            {
+                float a = float.Parse(txtNhapSoMot.Text);
+                float b = float.Parse(txtNhapSoHai.Text);
+                txtKetQua.Text = operation(a, b).ToString();
+            } else
+            {
+                lbThongBao.Text = "Lỗi Dữ Liệu";
+            }
+            
+
         }
         protected void btnChia_Click(object sender, EventArgs e)
         {
