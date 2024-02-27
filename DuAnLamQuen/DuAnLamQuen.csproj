@@ -74,6 +74,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="DangKyThongTin.aspx" />
+    <Content Include="TinhToan.aspx" />
     <Content Include="Hello.aspx" />
     <Content Include="MinhHoa.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -175,7 +176,6 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="TinhToan.aspx" />
     <Content Include="Uploads\420179209_2049003128816597_9102532635004590009_n.jpg" />
     <Content Include="Web.config" />
     <Content Include="YeuCau.aspx" />
@@ -187,6 +187,13 @@
     </Compile>
     <Compile Include="DangKyThongTin.aspx.designer.cs">
       <DependentUpon>DangKyThongTin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TinhToan.aspx.cs">
+      <DependentUpon>TinhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinhToan.aspx.designer.cs">
+      <DependentUpon>TinhToan.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hello.aspx.cs">
       <DependentUpon>Hello.aspx</DependentUpon>
@@ -203,13 +210,6 @@
       <DependentUpon>MinhHoa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TinhToan.aspx.cs">
-      <DependentUpon>TinhToan.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TinhToan.aspx.designer.cs">
-      <DependentUpon>TinhToan.aspx</DependentUpon>
-    </Compile>
     <Compile Include="YeuCau.aspx.cs">
       <DependentUpon>YeuCau.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
