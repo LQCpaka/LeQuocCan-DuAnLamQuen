@@ -14,10 +14,10 @@ namespace DuAnLamQuen
         {
 
         }
-        protected void ThucHienPhepTinh(Func<int, int, int> operation)
+        protected void ThucHienPhepTinh(Func<float, float, float> operation)
         {
-            int a = int.Parse(txtNhapSoMot.Text);
-            int b = int.Parse(txtNhapSoHai.Text);
+            float a = float.Parse(txtNhapSoMot.Text);
+            float b = float.Parse(txtNhapSoHai.Text);
             txtKetQua.Text = operation(a, b).ToString();
         }
         protected void btnChia_Click(object sender, EventArgs e)

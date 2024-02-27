@@ -75,7 +75,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="DangKyThongTin.aspx" />
     <Content Include="TinhToan.aspx" />
-    <Content Include="Hello.aspx" />
     <Content Include="MinhHoa.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -194,13 +193,6 @@
     </Compile>
     <Compile Include="TinhToan.aspx.designer.cs">
       <DependentUpon>TinhToan.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Hello.aspx.cs">
-      <DependentUpon>Hello.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Hello.aspx.designer.cs">
-      <DependentUpon>Hello.aspx</DependentUpon>
     </Compile>
     <Compile Include="MinhHoa.aspx.cs">
       <DependentUpon>MinhHoa.aspx</DependentUpon>
